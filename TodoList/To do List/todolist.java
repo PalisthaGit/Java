@@ -103,11 +103,14 @@ public class todolist {
                     System.out.println("Please enter a valid number.");
                 }
 
+
             } else {
                 System.out.println("Exiting...");
                 break;
             }
         }
+
+        
         input.close();
     }
 }
